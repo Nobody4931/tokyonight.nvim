@@ -132,7 +132,7 @@
 
 		"TSConstant": "Foreground",
 		"TSConstBuiltin": "BRed",
-		"TSConstMacro": "BRed",
+		"TSConstMacro": "Magenta",
 
 		"TSStringRegEx": "BRed",
 		"TSString": "Green",

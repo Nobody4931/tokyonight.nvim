@@ -91,7 +91,7 @@ highlight TSPunctBracket guifg=#e8e8d3 ctermfg=254 guibg=NONE ctermbg=NONE gui=N
 highlight TSPunctSpecial guifg=#e8e8d3 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 highlight TSConstant guifg=#e8e8d3 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 highlight TSConstBuiltin guifg=#ff7a93 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
-highlight TSConstMacro guifg=#ff7a93 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+highlight TSConstMacro guifg=#ad8ee6 ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 highlight TSStringRegEx guifg=#ff7a93 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 highlight TSString guifg=#9ece6a ctermfg=149 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 highlight TSStringEscape guifg=#449dab ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
