@@ -1,0 +1,219 @@
+{
+	"Information": {
+		"Name": "tokyonight",
+		"Author": "Nobody4931",
+		"Version": "1.0",
+		"Background": "dark"
+	},
+
+	"Palette": {
+		"Background": "#1d1f21",
+		"Foreground": "#e8e8d3",
+
+		"Black":    "#32344a",
+		"Red":      "#f7768e",
+		"Green":    "#9ece6a",
+		"Yellow":   "#e0af68",
+		"Blue":     "#7aa2f7",
+		"Magenta":  "#ad8ee6",
+		"Cyan":     "#449dab",
+		"White":    "#9699a8",
+
+		"BBlack":   "#444b6a",
+		"BRed":     "#ff7a93",
+		"BGreen":   "#b9f27c",
+		"BYellow":  "#ff9e64",
+		"BBlue":    "#7da6ff",
+		"BMagenta": "#bb9af7",
+		"BCyan":    "#0db9d7",
+		"BWhite":   "#acb0d0"
+	},
+
+	"Highlights": {
+		"Normal": "Foreground Background",
+		"Title": "Magenta",
+
+		"Comment": "BBlack",
+
+		"Constant": "BRed",
+		"String": "Green",
+		"Character": "Green",
+		"Number": "BRed",
+		"Boolean": "BRed",
+		"Float": "BRed",
+
+		"Identifier": "Magenta",
+		"Function": "Magenta",
+
+		"Statement": "Magenta",
+		"Conditional": "Magenta",
+		"Repeat": "Magenta",
+		"Label": "Magenta",
+		"Operator": "Foreground",
+		"Keyword": "Magenta",
+		"Exception": "Magenta",
+
+		"PreProc": "Magenta",
+		"Include": "Magenta",
+		"Define": "Magenta",
+		"Macro": "Magenta",
+		"PreCondit": "Magenta",
+
+		"Type": "Magenta",
+		"StorageClass": "Magenta",
+		"Structure": "Magenta",
+		"Typedef": "Magenta",
+
+		"Special": "Cyan",
+		"SpecialChar": "Cyan",
+		"Tag": "BMagenta",
+		"Delimiter": "BBlue",
+		"StringDelimiter": "Green",
+		"SpecialComment": "White",
+		"Debug": "Magenta",
+
+		"Underlined": "Green - u",
+		"Error": "BRed - r",
+		"Todo": "Foreground - b",
+
+		"Folded": "White",
+		"FoldColumn": "White",
+
+		"Cursor": "- - r",
+		"CursorLine": "- #141617",
+		"CursorColumn": "- #141617",
+
+		"LineNr": "White",
+		"CursorLineNr": "Foreground",
+
+		"ColorColumn": "- White",
+		"SignColumn": "- Background",
+		"Conceal": "BBlack",
+		"Directory": "Magenta",
+		"ErrorMsg": "Red",
+		"WarningMsg": "Yellow",
+		"MoreMsg": "Cyan",
+
+		"DiffAdd": "Green - r",
+		"DiffChange": "Yellow - r",
+		"DiffDelete": "Red - r",
+		"DiffText": "Yellow - r",
+
+		"VertSplit": "BBlack",
+		"Search": "BRed - u",
+		"IncSearch": "Magenta - r",
+		"MatchParen": "Magenta - u",
+		"NonText": "White",
+		"EndOfBuffer": "White",
+
+		"Pmenu": "#eeeeee #454547",
+		"PmenuSel": "#121212 BMagenta",
+		"PmenuSbar": "- #575759",
+		"PmenuThumb": "- BWhite",
+		"WildMenu": "#121212 BMagenta",
+
+		"Question": "Cyan",
+		"QuickFixLine": "Black Yellow",
+		"SpecialKey": "White",
+
+		"SpellBad": "Red - u",
+		"SpellCap": "Yellow - u",
+		"SpellLocal": "Yellow",
+		"SpellRare": "Yellow",
+
+		"Visual": "- Black",
+		"VisualNOS": "Black",
+
+
+		"TSError": "Red - u",
+		"TSPunctDelimiter": "Foreground",
+		"TSPunctBracket": "Foreground",
+		"TSPunctSpecial": "Foreground",
+
+		"TSConstant": "Foreground",
+		"TSConstBuiltin": "BRed",
+		"TSConstMacro": "BRed",
+
+		"TSStringRegEx": "BRed",
+		"TSString": "Green",
+		"TSStringEscape": "Cyan",
+		"TSCharacter": "Green",
+		"TSNumber": "BRed",
+		"TSBoolean": "BRed",
+		"TSFloat": "BRed",
+		"TSAnnotation": "BBlack",
+		"TSNamespace": "Magenta",
+
+		"TSFuncBuiltin": "Cyan",
+		"TSFuncMacro": "Blue",
+		"TSFunction": "Blue",
+		"TSParameter": "Foreground",
+		"TSParameterReference": "Foreground",
+		"TSMethod": "Blue",
+		"TSField": "Foreground",
+		"TSProperty": "Foreground",
+		"TSConstructor": "Foreground",
+
+		"TSConditional": "Magenta",
+		"TSRepeat": "Magenta",
+		"TSLabel": "BCyan",
+
+		"TSKeyword": "Magenta",
+		"TSKeywordFunction": "Magenta",
+		"TSOperator": "Foreground",
+		"TSException": "Magenta",
+		"TSType": "Magenta",
+		"TSTypeBuiltin": "Magenta",
+		"TSInclude": "Magenta",
+
+		"TSVariable": "Foreground",
+		"TSVariableBuiltin": "Magenta",
+
+		"TSText": "Foreground",
+		"TSEmphasis": "Foreground",
+		"TSUnderline": "Foreground",
+		"TSTitle": "Foreground",
+		"TSLiteral": "Foreground",
+		"TSURI": "Foreground",
+
+		"TSTag": "Red",
+		"TSTagDelimiter": "Foreground",
+
+
+		"StartifyNumber": "BRed",
+		"StartifySelect": "BRed",
+		"StartifyBracket": "Blue",
+		"StartifySpecial": "BBlack",
+		"StartifyVar": "Foreground",
+		"StartifyPath": "Cyan",
+		"StartifyFile": "Magenta",
+		"StartifySlash": "Cyan",
+		"StartifyHeader": "BGreen",
+		"StartifySection": "Green",
+		"StartifyFooter": "BGreen",
+
+		
+		"javaScriptType": "Yellow",
+		"javaScriptParens": "Foreground",
+		"javaScriptBraces": "Foreground",
+		"javaScriptRegexpString": "BRed",
+
+		"jsonBraces": "Foreground"
+	},
+
+	"Links": {
+		"diffRemoved": "Constant",
+		"diffAdded": "String",
+
+		"javaScriptValue": "Constant",
+		"javaScriptBraces": "javaScriptParens",
+		"javaScriptTemplateVar": "StringDelimiter",
+		"javaScriptTemplateDelim": "Identifier",
+		"javaScriptTemplateString": "String"
+	},
+
+	"Terminal": [
+		"Black", "Red", "Green", "Yellow", "Blue", "Magenta", "Cyan", "White",
+		"BBlack", "BRed", "BGreen", "BYellow", "BBlue", "BMagenta", "BCyan", "BWhite"
+	]
+}
