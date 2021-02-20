@@ -141,6 +141,7 @@ highlight StartifySlash guifg=#449dab ctermfg=73 guibg=NONE ctermbg=NONE gui=NON
 highlight StartifyHeader guifg=#b9f27c ctermfg=156 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 highlight StartifySection guifg=#9ece6a ctermfg=149 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 highlight StartifyFooter guifg=#b9f27c ctermfg=156 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+highlight javaScriptNull guifg=#ff7a93 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 highlight javaScriptType guifg=#e0af68 ctermfg=179 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 highlight javaScriptParens guifg=#e8e8d3 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 highlight javaScriptBraces guifg=#e8e8d3 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 

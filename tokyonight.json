@@ -193,6 +193,7 @@
 		"StartifyFooter": "BGreen",
 
 		
+		"javaScriptNull": "BRed",
 		"javaScriptType": "Yellow",
 		"javaScriptParens": "Foreground",
 		"javaScriptBraces": "Foreground",
