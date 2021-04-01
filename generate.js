@@ -184,7 +184,8 @@ const Gen = function(File) {
 	var TEColors   = Data["Terminal"] ?? [];
 
 	var RFile = File.substr(0, File.length - 5);
-	var Result = `" This file was generated with Nobody's Colorscheme Generator v1.0.0a
+	var Result = `" This file was generated with Nobody's Colorscheme Generator v1.1.5a
+" A javascript port of felipec's generator found at: https://github.com/felipec/vim-felipec/blob/master/generate
 " File: ${RFile}.vim
 " Maintainer: ${Info.Author ?? "Undefined"}
 " Version: ${Info.Version ?? "1.0"}
