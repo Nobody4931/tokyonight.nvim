@@ -217,4 +217,4 @@ let g:colors_name='${Info.Name ?? RFile}'
 
 
 !Fs.existsSync("colors") && Fs.mkdirSync("colors");
-Fs.readdirSync(".", { encoding: "utf8" }).forEach((F) => F.endsWith(".json") && Gen(F));
+Fs.readdirSync(".", { encoding: "utf8" }).forEach((F) => (F.endsWith(".json") && !F.startsWith("tsconfig")) && Gen(F));

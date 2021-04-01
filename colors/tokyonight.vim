@@ -45,7 +45,7 @@ highlight StringDelimiter guifg=#9ece6a ctermfg=149 guibg=NONE ctermbg=NONE gui=
 highlight SpecialComment guifg=#9699a8 ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 highlight Debug guifg=#ad8ee6 ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 highlight Underlined guifg=#9ece6a ctermfg=149 guibg=NONE ctermbg=NONE gui=underline cterm=underline 
-highlight Error guifg=#ff7a93 ctermfg=210 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
+highlight Error guifg=NONE ctermfg=NONE guibg=#f7768e ctermbg=210 gui=NONE cterm=NONE 
 highlight Todo guifg=#e8e8d3 ctermfg=254 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
 highlight Folded guifg=#9699a8 ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 highlight FoldColumn guifg=#9699a8 ctermfg=247 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
@@ -147,6 +147,9 @@ highlight javaScriptParens guifg=#e8e8d3 ctermfg=254 guibg=NONE ctermbg=NONE gui
 highlight javaScriptBraces guifg=#e8e8d3 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 highlight javaScriptRegexpString guifg=#ff7a93 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 highlight jsonBraces guifg=#e8e8d3 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+highlight vimOperParen guifg=#e8e8d3 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+highlight vimParenSep guifg=#e8e8d3 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+highlight vimSep guifg=#e8e8d3 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 
 highlight! link diffRemoved Constant
 highlight! link diffAdded String

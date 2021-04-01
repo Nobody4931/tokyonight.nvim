@@ -73,7 +73,7 @@
 		"Debug": "Magenta",
 
 		"Underlined": "Green - u",
-		"Error": "BRed - r",
+		"Error": "- Red",
 		"Todo": "Foreground - b",
 
 		"Folded": "White",
@@ -192,14 +192,18 @@
 		"StartifySection": "Green",
 		"StartifyFooter": "BGreen",
 
-		
+
 		"javaScriptNull": "BRed",
 		"javaScriptType": "Yellow",
 		"javaScriptParens": "Foreground",
 		"javaScriptBraces": "Foreground",
 		"javaScriptRegexpString": "BRed",
 
-		"jsonBraces": "Foreground"
+		"jsonBraces": "Foreground",
+
+		"vimOperParen": "Foreground",
+		"vimParenSep": "Foreground",
+		"vimSep": "Foreground"
 	},
 
 	"Links": {
