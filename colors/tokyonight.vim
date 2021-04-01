@@ -1,5 +1,6 @@
-" This file was generated with Nobody's Colorscheme Generator v1.1.5a
-" A javascript port of felipec's generator found at: https://github.com/felipec/vim-felipec/blob/master/generate
+" This file was generated with Nobody's Colorscheme Generator v1.1.5a, a javascript port of felipec's
+" colorscheme generator found at: https://github.com/felipec/vim-felipec/blob/master/generate
+"
 " File: tokyonight.vim
 " Maintainer: Nobody4931
 " Version: 1.0
