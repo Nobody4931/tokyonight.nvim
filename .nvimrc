@@ -1,4 +1,3 @@
-
 nnoremap <silent> <leader>ca <CMD>call v:lua.project_clear()<CR>
 nnoremap <silent> <leader>cb <CMD>call v:lua.project_build(0)<CR>
 nnoremap <silent> <leader>cB <CMD>call v:lua.project_build(1)<CR>
@@ -34,7 +33,7 @@ local function get_terminal()
 		vim.cmd("split")
 		vim.api.nvim_win_set_buf(0, terminal_buf)
 		vim.api.nvim_win_set_height(0, math.floor(old_win_height * 0.35))
-		vim.cmd("terminal")
+		vim.cmd("terminal powershell")
 
 		curr_terminal = {}
 		curr_terminal[1] = vim.api.nvim_get_current_win()
