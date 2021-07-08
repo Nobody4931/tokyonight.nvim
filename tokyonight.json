@@ -132,7 +132,7 @@
 
 		"TSConstant": "Foreground",
 		"TSConstBuiltin": "BRed",
-		"TSConstMacro": "Magenta",
+		"TSConstMacro": "BRed",
 
 		"TSStringRegEx": "BRed",
 		"TSString": "Green",
@@ -141,10 +141,11 @@
 		"TSNumber": "BRed",
 		"TSBoolean": "BRed",
 		"TSFloat": "BRed",
+		"TSAttribute": "Magenta",
 		"TSAnnotation": "BBlack",
-		"TSNamespace": "Magenta",
+		"TSNamespace": "Blue",
 
-		"TSFuncBuiltin": "Cyan",
+		"TSFuncBuiltin": "Blue",
 		"TSFuncMacro": "Blue",
 		"TSFunction": "Blue",
 		"TSParameter": "Foreground",
@@ -156,7 +157,7 @@
 
 		"TSConditional": "Magenta",
 		"TSRepeat": "Magenta",
-		"TSLabel": "BCyan",
+		"TSLabel": "Magenta",
 
 		"TSKeyword": "Magenta",
 		"TSKeywordFunction": "Magenta",
@@ -195,6 +196,7 @@
 
 		"javaScriptNull": "BRed",
 		"javaScriptType": "Yellow",
+		"javaScriptOperator": "Magenta",
 		"javaScriptParens": "Foreground",
 		"javaScriptBraces": "Foreground",
 		"javaScriptRegexpString": "BRed",
